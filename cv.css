@@ -1,0 +1,20 @@
+.name{
+    
+    text-align: center;
+
+}
+
+.main{
+    text-align: center;
+}
+
+.competence {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info {
+    text-align: right;
+    padding-right: 450px;
+}
