@@ -1,0 +1,16 @@
+.zone-vide{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    
+}
+
+.BloomPetals{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 275%;
+}
+
+.title{
+    text-align: center;
+}
