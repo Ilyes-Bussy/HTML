@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: grey;
+}
+
+.haut-de-page{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 275%;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.img1{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 125px;
+
+}
+
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    
+}
+
+.service article{
+    width: 30%;
+}
+
+.service-titre{
+    color: blue;
+    font-family: "Anton", sans-serif;
+}
+
+
+.img2{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 125px;
+}
+
+
+.zone-vide{
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    
+}
+
+.ma-barre {
+  border: none;
+  height: 2px;          /* Épaisseur de la barre */
+  background-color: black; /* Couleur de la barre */
+  width: 80%;           /* Largeur (par exemple 80% du conteneur) */
+  margin: 30px auto;    /* Marges (haut/bas et centrage horizontal auto) */
+}
+
+#more {display: none;}
+
+#mor {display: none;}
+
+#moe {display: none;}
