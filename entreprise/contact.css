@@ -1,0 +1,101 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: grey;
+}
+
+.haut-de-page{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+body{
+    margin: 0;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+
+}
+
+
+h1{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-size: 275%;
+}
+
+.txt-civil{
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+#civilite-select {
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  
+}
+
+.choix-civilite{
+    text-align: center;
+}
+
+.nom-prenom{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.adresse{
+    text-align: center;
+}
+
+.confi{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+#more{
+    display: none;
+}
+
+.btn{
+    text-align: center;
+
+}
+
+.validation{
+    text-align: center;
+    margin: 1.5rem 0;
+
+
+
+}
+
+
+button {
+    background-color: #1f2937;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #374151;
+}
+
+button:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+}
+
+.validation button {
+    padding: 12px 40px;
+    font-weight: bold;
+}

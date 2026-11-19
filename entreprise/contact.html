@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>CONTACT</title>
+</head>
+<body>
+    <header>
+        <nav class="haut-de-page">
+            
+            <a href="file:///home/ilyes/Documents/HTML/entreprise/index.html"class="haut-de-page">HOME</a>
+            <a href="file:///home/ilyes/Documents/HTML/entreprise/entreprise.html"class="haut-de-page">ENTREPRISE</a>
+            <a href=""class="haut-de-page">REALISATION</a>
+            <a href="file:///home/ilyes/Documents/HTML/entreprise/contact.html"class="haut-de-page">CONTACT</a>
+        
+        </nav>
+        
+        <input type="search" name="" id="">
+
+    </header>  
+    <main>
+        <h1>BloomPetals</h1>
+
+        <section> 
+            <article class="choix-civilite"> 
+        
+        
+                <label for="pet-select" class="txt-civil">Votre civilité&nbsp;:</label>
+
+                <select name="civilite" id="civilite-select">
+                <option value="">--Veuillez choisir une option--</option>
+                <option value="Homme">Homme</option>
+                <option value="Femme">Femme</option>
+                </select>
+
+            </article>
+            <article class="nom-prenom">
+                
+                <form>
+                    <label for="nom">Nom : </label>
+                    <input type="text" id="nom" name="nom" required> <br>
+
+                    <label for="prenom">Prénom : </label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </form>
+            
+            </article>
+            <article class="adresse">
+                
+                <form>
+                <label for="nom">Adresse postale : </label>
+                <input type="text" id="adresse" name="adresse" required>
+            
+                </form>
+            </article>
+
+            <article class="confi"> 
+                <p>Politique de confidentialité <br>Qui sommes-nous ? BloomPetals.<span id="dots">...</span><span id="more"><br>Données collectées : nom, prénom, e-mail, téléphone et adresse de livraison.<br> Pourquoi ? Uniquement pour traiter vos commandes, les livrer et répondre à vos messages. Nous ne vendons jamais vos données.<br>Durée : le temps de gérer votre commande, puis [3 ans] maximum.<br>Vos droits : vous pouvez demander l’accès, la modification ou la suppression de vos données en écrivant à [email]. En cas de problème, vous pouvez contacter la CNIL (www.cnil.fr)</span></p>
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            </article>
+
+            <article class="btn">
+                <input type="checkbox" id="accepte" >
+                <label for="newsletter">J'accepte la politque de confidentialité</label>
+            </article>
+            
+            <article class="validation">
+                <button onclick="myFunction()" id="myBtn">Validé</button>
+            
+            </article>
+       
+        </section>
+
+    </main>
+</body>
+</html>
