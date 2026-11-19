@@ -16,6 +16,8 @@ body{
     margin: 0;
     font-weight: bold;
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
 }
 
 
@@ -45,6 +47,13 @@ body{
     text-align: center;
     margin-top: 90px;
 }
+
+.equipe{
+    text-align: center;
+    margin-top: 108px;
+}
+
+
 
 .zone-vide{
     width: 100%;
